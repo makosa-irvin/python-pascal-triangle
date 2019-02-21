@@ -6,8 +6,8 @@ def pascal(row,col):
     return top_left + top_right
     
 
-                
-for i in range(1,11):
+num = int(input("Enter number of rows: "))                
+for i in range(1,num+1):
    for j in range(1,i+1):
        print(pascal(i,j),end=" ",sep=" ")
        
